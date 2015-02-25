@@ -1,0 +1,6 @@
+{
+"accessKey": "your-key",
+"secretKey": "your-secret-key",
+"bucket": "your-bucket",
+"region": "your-region"
+}
