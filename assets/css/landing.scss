@@ -1,19 +1,23 @@
 .title {
   margin-top: 200px;
   white-space: nowrap;
-  overflow: hidden; }
-  .title h2, .title h3 {
+  overflow: hidden;
+  h2, h3 {
     text-align: center;
-    color: white; }
+    color: white;    
+  }
+}
 
-body {
-  background: url("../images/smoke.jpg") no-repeat center center fixed;
+body { 
+  background: url("../images/smoke.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+}
 
 .strike {
   text-decoration: line-through;
   white-space: pre;
-  display: inline; }
+  display: inline;
+}
