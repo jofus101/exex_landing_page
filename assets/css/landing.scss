@@ -1,23 +1,50 @@
+$text-color: #D3D1E7;
+
 .title {
   margin-top: 200px;
   white-space: nowrap;
   overflow: hidden;
   h2, h3 {
     text-align: center;
-    color: white;    
+    color: $text-color;
+    font-family: 'Economica', Helvetica, Roboto, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .strike {
+    text-decoration: line-through;
+    font-weight: bold;
+    white-space: pre;
+    display: inline;
+  }
+  .strike-center {
+    position: relative;
+    white-space: pre; /* would center line-through in the middle of the wrapped lines */
+  }
+  .strike-center:after {
+      border-top: 4px solid $text-color;
+      position: absolute;
+      content: "";
+      right: 0;
+      top:50%;
+      left: 0;
   }
 }
 
+
+
 body { 
-  background: url("../images/smoke.jpg") no-repeat center center fixed; 
+  background:
+    // top, transparent red, faked with gradient 
+    linear-gradient(
+      rgba(0, 0, 255, 0.15), 
+      rgba(0, 0, 255, 0.15)
+    ),
+    // bottom, image
+    url("../images/smoke.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-.strike {
-  text-decoration: line-through;
-  white-space: pre;
-  display: inline;
-}
