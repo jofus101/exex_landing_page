@@ -2,23 +2,19 @@
   margin-top: 200px;
   white-space: nowrap;
   overflow: hidden; }
-  .title h2, .title h3 {
+  .title h1, .title h2, .title h3, .title h4, .title h5, .title h6 {
     text-align: center;
-    color: #D3D1E7;
+    color: #EBEAF6;
     font-family: 'Economica', Helvetica, Roboto, Arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px; }
-  .title .strike {
-    text-decoration: line-through;
-    font-weight: bold;
-    white-space: pre;
-    display: inline; }
   .title .strike-center {
     position: relative;
     white-space: pre;
-    /* would center line-through in the middle of the wrapped lines */ }
+    /* would center line-through in the middle of the wrapped lines */
+    margin: 5px; }
   .title .strike-center:after {
-    border-top: 4px solid #D3D1E7;
+    border-top: 4px solid #EBEAF6;
     position: absolute;
     content: "";
     right: 0;
