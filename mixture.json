@@ -3,7 +3,8 @@
     "lintScripts": false,
     "preprocessorLocations": [
         "bower_components/foundation/scss",
-        "assets"
+        "assets",
+        "assets/css"
     ],
     "preprocessorScriptOutput": "assets/js",
     "preprocessorStyleOutput": "assets/css",
