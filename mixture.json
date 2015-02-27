@@ -1,6 +1,6 @@
 {
-    "debug": false,
-    "lintScripts": false,
+    "debug": true,
+    "lintScripts": true,
     "preprocessorLocations": [
         "bower_components/foundation/scss",
         "assets",
