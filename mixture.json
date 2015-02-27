@@ -4,7 +4,8 @@
     "preprocessorLocations": [
         "bower_components/foundation/scss",
         "assets",
-        "assets/css"
+        "assets/css",
+        "assets/js"
     ],
     "preprocessorScriptOutput": "assets/js",
     "preprocessorStyleOutput": "assets/css",
