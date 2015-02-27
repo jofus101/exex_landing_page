@@ -19,22 +19,18 @@ $(document).ready(function() {
     }
   });
 
-  // myFirebaseRef.on('child_added', function(snapshot) {
-  //   var message = snapshot.val();
-  //   displaySuccessMessage(message.email);
-  // });
-
   function displaySuccessMessage(email) {
-    $('#message_out').empty().removeClass();
-    $('#message_out').addClass( "alert-box success" );
+    $('#message_out').removeAttr( 'style' ).addClass( "alert-box success" );
     $('#message_out').text("Thanks for signing up: " + email);
-    $('#message_out').append('<a href="#" class="close">&times;</a>');
+    $('#message_out').fadeOut(2000, function() {
+      $('#message_out').empty().removeClass();
+    });
   }
   function displayFailureMessage(email) {
-    $('#message_out').empty().removeClass();
-    $('#message_out').addClass( "alert-box alert" );
+    $('#message_out').removeAttr( 'style' ).addClass( "alert-box alert" );
     $('#message_out').text("We're sorry \"" + email + "\" doesn't look quite right to us. Maybe you missed a letter");
-    $('#message_out').append('<a href="#" class="close">&times;</a>');
-  }
-   
+    $('#message_out').fadeOut(2000, function() {
+      $('#message_out').empty().removeClass();
+    });
+  } 
 });
