@@ -20,17 +20,11 @@ $(document).ready(function() {
   });
 
   function displaySuccessMessage(email) {
-    $('#message_out').removeAttr( 'style' ).addClass( "alert-box success" );
-    $('#message_out').text("Thanks for signing up: " + email);
-    $('#message_out').fadeOut(2000, function() {
-      $('#message_out').empty().removeClass();
-    });
+    $('#alert_placeholder').empty()
+      .append('<div class="alert-box success" data-alert>Thanks for signing up: ' + email + '<a href="#" class="close">&times;</a></div>')
   }
   function displayFailureMessage(email) {
-    $('#message_out').removeAttr( 'style' ).addClass( "alert-box alert" );
-    $('#message_out').text("We're sorry \"" + email + "\" doesn't look quite right to us. Maybe you missed a letter");
-    $('#message_out').fadeOut(2000, function() {
-      $('#message_out').empty().removeClass();
-    });
+    $('#alert_placeholder').empty()
+      .append('<div class="alert-box alert" data-alert>"We\'re sorry \"' + email + '\" doesn\'t look quite right to us. Maybe you missed a letter"<a href="#" class="close">&times;</a></div>')
   } 
 });
