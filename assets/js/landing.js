@@ -21,10 +21,12 @@ $(document).ready(function() {
 
   function displaySuccessMessage(email) {
     $('#alert_placeholder').empty()
-      .append('<div class="alert-box success" data-alert>Thanks for signing up: ' + email + '<a href="#" class="close">&times;</a></div>')
+      .append('<div class="alert-box success" data-alert>Thanks for signing up: ' + email + '<a href="#" class="close">&times;</a></div>');
+    $(document).foundation('alert', 'reflow');
   }
   function displayFailureMessage(email) {
     $('#alert_placeholder').empty()
-      .append('<div class="alert-box alert" data-alert>"We\'re sorry \"' + email + '\" doesn\'t look quite right to us. Maybe you missed a letter"<a href="#" class="close">&times;</a></div>')
+      .append('<div class="alert-box alert" data-alert>"We\'re sorry \"' + email + '\" doesn\'t look quite right to us. Maybe you missed a letter"<a href="#" class="close">&times;</a></div>');
+    $(document).foundation('alert', 'reflow');
   } 
 });
