@@ -1334,7 +1334,7 @@ select {
   transition: opacity 300ms ease-out;
   background-color: #008CBA;
   border-color: #0078a0;
-  color: #FFFFFF; }
+  color: #666666; }
   .alert-box .close {
     font-size: 1.375rem;
     padding: 9px 6px 4px;
@@ -1355,11 +1355,11 @@ select {
   .alert-box.success {
     background-color: #43AC6A;
     border-color: #3a945b;
-    color: #FFFFFF; }
+    color: #666666; }
   .alert-box.alert {
     background-color: #f04124;
     border-color: #de2d0f;
-    color: #FFFFFF; }
+    color: #666666; }
   .alert-box.secondary {
     background-color: #e7e7e7;
     border-color: #c7c7c7;
@@ -1367,7 +1367,7 @@ select {
   .alert-box.warning {
     background-color: #f08a24;
     border-color: #de770f;
-    color: #FFFFFF; }
+    color: #666666; }
   .alert-box.info {
     background-color: #a0d3e8;
     border-color: #74bfdd;
