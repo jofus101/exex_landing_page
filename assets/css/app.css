@@ -40,10 +40,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -1128,10 +1128,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -1207,7 +1207,7 @@ select {
       color: #222222;
       padding: 1rem;
       display: block;
-      font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       font-size: 1rem; }
       .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
         background: #e3e3e3; }
@@ -1260,10 +1260,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -1417,10 +1417,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -1824,10 +1824,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -1981,10 +1981,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -2085,10 +2085,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -2149,7 +2149,7 @@ select {
 
 button, .button {
   border-style: solid;
-  border-width: 0px;
+  border-width: 2px;
   cursor: pointer;
   font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
@@ -2166,14 +2166,14 @@ button, .button {
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
   font-size: 1rem;
-  background-color: #008CBA;
-  border-color: #007095;
-  color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-color: rgba(204, 204, 204, 0.95);
+  color: #333333;
   transition: background-color 300ms ease-out; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #007095; }
+    background-color: rgba(204, 204, 204, 0.95); }
   button:hover, button:focus, .button:hover, .button:focus {
-    color: #FFFFFF; }
+    color: #333333; }
   button.secondary, .button.secondary {
     background-color: #e7e7e7;
     border-color: #b9b9b9;
@@ -2247,18 +2247,18 @@ button, .button {
   button.round, .button.round {
     border-radius: 1000px; }
   button.disabled, button[disabled], .button.disabled, .button[disabled] {
-    background-color: #008CBA;
-    border-color: #007095;
-    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-color: rgba(204, 204, 204, 0.95);
+    color: #333333;
     cursor: default;
     opacity: 0.7;
     box-shadow: none; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #007095; }
+      background-color: rgba(204, 204, 204, 0.95); }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      color: #FFFFFF; }
+      color: #333333; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #008CBA; }
+      background-color: rgba(255, 255, 255, 0.95); }
     button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
       background-color: #e7e7e7;
       border-color: #b9b9b9;
@@ -2730,10 +2730,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -2794,7 +2794,7 @@ select {
 
 button, .button {
   border-style: solid;
-  border-width: 0px;
+  border-width: 2px;
   cursor: pointer;
   font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
@@ -2811,14 +2811,14 @@ button, .button {
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
   font-size: 1rem;
-  background-color: #008CBA;
-  border-color: #007095;
-  color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-color: rgba(204, 204, 204, 0.95);
+  color: #333333;
   transition: background-color 300ms ease-out; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #007095; }
+    background-color: rgba(204, 204, 204, 0.95); }
   button:hover, button:focus, .button:hover, .button:focus {
-    color: #FFFFFF; }
+    color: #333333; }
   button.secondary, .button.secondary {
     background-color: #e7e7e7;
     border-color: #b9b9b9;
@@ -2892,18 +2892,18 @@ button, .button {
   button.round, .button.round {
     border-radius: 1000px; }
   button.disabled, button[disabled], .button.disabled, .button[disabled] {
-    background-color: #008CBA;
-    border-color: #007095;
-    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-color: rgba(204, 204, 204, 0.95);
+    color: #333333;
     cursor: default;
     opacity: 0.7;
     box-shadow: none; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #007095; }
+      background-color: rgba(204, 204, 204, 0.95); }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      color: #FFFFFF; }
+      color: #333333; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #008CBA; }
+      background-color: rgba(255, 255, 255, 0.95); }
     button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
       background-color: #e7e7e7;
       border-color: #b9b9b9;
@@ -3019,10 +3019,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -3293,10 +3293,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -3631,10 +3631,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -3781,10 +3781,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -3906,10 +3906,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -4010,10 +4010,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -4074,7 +4074,7 @@ select {
 
 button, .button {
   border-style: solid;
-  border-width: 0px;
+  border-width: 2px;
   cursor: pointer;
   font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
@@ -4091,14 +4091,14 @@ button, .button {
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
   font-size: 1rem;
-  background-color: #008CBA;
-  border-color: #007095;
-  color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-color: rgba(204, 204, 204, 0.95);
+  color: #333333;
   transition: background-color 300ms ease-out; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #007095; }
+    background-color: rgba(204, 204, 204, 0.95); }
   button:hover, button:focus, .button:hover, .button:focus {
-    color: #FFFFFF; }
+    color: #333333; }
   button.secondary, .button.secondary {
     background-color: #e7e7e7;
     border-color: #b9b9b9;
@@ -4172,18 +4172,18 @@ button, .button {
   button.round, .button.round {
     border-radius: 1000px; }
   button.disabled, button[disabled], .button.disabled, .button[disabled] {
-    background-color: #008CBA;
-    border-color: #007095;
-    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-color: rgba(204, 204, 204, 0.95);
+    color: #333333;
     cursor: default;
     opacity: 0.7;
     box-shadow: none; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #007095; }
+      background-color: rgba(204, 204, 204, 0.95); }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      color: #FFFFFF; }
+      color: #333333; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #008CBA; }
+      background-color: rgba(255, 255, 255, 0.95); }
     button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
       background-color: #e7e7e7;
       border-color: #b9b9b9;
@@ -4611,7 +4611,7 @@ select {
   border-color: #cccccc;
   padding: 0.5rem;
   font-size: 0.875rem;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   color: rgba(0, 0, 0, 0.75);
   line-height: normal;
   border-radius: 0;
@@ -4766,10 +4766,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -4994,10 +4994,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -5113,10 +5113,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -5371,10 +5371,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -5488,10 +5488,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -5552,7 +5552,7 @@ select {
 
 .label {
   font-weight: normal;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -5626,10 +5626,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -5742,10 +5742,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -6078,10 +6078,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -6228,10 +6228,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -6376,10 +6376,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -6453,7 +6453,7 @@ select {
     color: #EEEEEE;
     font-weight: normal;
     font-size: 1rem;
-    font-family: "Economica", Helvetica, Roboto, Arial, sans-serif; }
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
   .pricing-table .price {
     background-color: #F6F6F6;
     padding: 0.9375rem 1.25rem;
@@ -6461,7 +6461,7 @@ select {
     color: #333333;
     font-weight: normal;
     font-size: 2rem;
-    font-family: "Economica", Helvetica, Roboto, Arial, sans-serif; }
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
   .pricing-table .description {
     background-color: #FFFFFF;
     padding: 0.9375rem;
@@ -6526,10 +6526,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -6662,10 +6662,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -6845,10 +6845,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -6949,10 +6949,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -8168,10 +8168,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -8236,7 +8236,7 @@ select {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: outside;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif; }
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
   .side-nav li {
     margin: 0 0 0.4375rem 0;
     font-size: 0.875rem;
@@ -8252,7 +8252,7 @@ select {
     .side-nav li.active > a:first-child:not(.button) {
       color: #1cc7ff;
       font-weight: normal;
-      font-family: "Economica", Helvetica, Roboto, Arial, sans-serif; }
+      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
     .side-nav li.divider {
       border-top: 1px solid;
       height: 0;
@@ -8307,10 +8307,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -8411,10 +8411,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -8475,7 +8475,7 @@ select {
 
 button, .button {
   border-style: solid;
-  border-width: 0px;
+  border-width: 2px;
   cursor: pointer;
   font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
@@ -8492,14 +8492,14 @@ button, .button {
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
   font-size: 1rem;
-  background-color: #008CBA;
-  border-color: #007095;
-  color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-color: rgba(204, 204, 204, 0.95);
+  color: #333333;
   transition: background-color 300ms ease-out; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #007095; }
+    background-color: rgba(204, 204, 204, 0.95); }
   button:hover, button:focus, .button:hover, .button:focus {
-    color: #FFFFFF; }
+    color: #333333; }
   button.secondary, .button.secondary {
     background-color: #e7e7e7;
     border-color: #b9b9b9;
@@ -8573,18 +8573,18 @@ button, .button {
   button.round, .button.round {
     border-radius: 1000px; }
   button.disabled, button[disabled], .button.disabled, .button[disabled] {
-    background-color: #008CBA;
-    border-color: #007095;
-    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-color: rgba(204, 204, 204, 0.95);
+    color: #333333;
     cursor: default;
     opacity: 0.7;
     box-shadow: none; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #007095; }
+      background-color: rgba(204, 204, 204, 0.95); }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      color: #FFFFFF; }
+      color: #333333; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #008CBA; }
+      background-color: rgba(255, 255, 255, 0.95); }
     button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
       background-color: #e7e7e7;
       border-color: #b9b9b9;
@@ -8700,10 +8700,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -8932,10 +8932,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -9009,7 +9009,7 @@ select {
     display: inline;
     margin-left: 1rem;
     margin-bottom: 0;
-    font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-weight: normal;
     font-size: 0.875rem;
     color: #999999; }
@@ -9079,10 +9079,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -9280,10 +9280,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -9427,10 +9427,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -9531,10 +9531,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -10596,7 +10596,7 @@ select {
       background-color: #EFEFEF;
       color: #222222;
       padding: 1rem 2rem;
-      font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       font-size: 1rem; }
       .tabs dd > a:hover, .tabs .tab-title > a:hover {
         background-color: #e1e1e1; }
@@ -10701,10 +10701,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -10818,10 +10818,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -10998,10 +10998,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -11102,10 +11102,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -12190,10 +12190,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -12254,7 +12254,7 @@ select {
 
 button, .button {
   border-style: solid;
-  border-width: 0px;
+  border-width: 2px;
   cursor: pointer;
   font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
@@ -12271,14 +12271,14 @@ button, .button {
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
   font-size: 1rem;
-  background-color: #008CBA;
-  border-color: #007095;
-  color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-color: rgba(204, 204, 204, 0.95);
+  color: #333333;
   transition: background-color 300ms ease-out; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #007095; }
+    background-color: rgba(204, 204, 204, 0.95); }
   button:hover, button:focus, .button:hover, .button:focus {
-    color: #FFFFFF; }
+    color: #333333; }
   button.secondary, .button.secondary {
     background-color: #e7e7e7;
     border-color: #b9b9b9;
@@ -12352,18 +12352,18 @@ button, .button {
   button.round, .button.round {
     border-radius: 1000px; }
   button.disabled, button[disabled], .button.disabled, .button[disabled] {
-    background-color: #008CBA;
-    border-color: #007095;
-    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-color: rgba(204, 204, 204, 0.95);
+    color: #333333;
     cursor: default;
     opacity: 0.7;
     box-shadow: none; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #007095; }
+      background-color: rgba(204, 204, 204, 0.95); }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      color: #FFFFFF; }
+      color: #333333; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #008CBA; }
+      background-color: rgba(255, 255, 255, 0.95); }
     button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
       background-color: #e7e7e7;
       border-color: #b9b9b9;
@@ -12479,10 +12479,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -12583,10 +12583,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -12647,7 +12647,7 @@ select {
 
 button, .button {
   border-style: solid;
-  border-width: 0px;
+  border-width: 2px;
   cursor: pointer;
   font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
@@ -12664,14 +12664,14 @@ button, .button {
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
   font-size: 1rem;
-  background-color: #008CBA;
-  border-color: #007095;
-  color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-color: rgba(204, 204, 204, 0.95);
+  color: #333333;
   transition: background-color 300ms ease-out; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #007095; }
+    background-color: rgba(204, 204, 204, 0.95); }
   button:hover, button:focus, .button:hover, .button:focus {
-    color: #FFFFFF; }
+    color: #333333; }
   button.secondary, .button.secondary {
     background-color: #e7e7e7;
     border-color: #b9b9b9;
@@ -12745,18 +12745,18 @@ button, .button {
   button.round, .button.round {
     border-radius: 1000px; }
   button.disabled, button[disabled], .button.disabled, .button[disabled] {
-    background-color: #008CBA;
-    border-color: #007095;
-    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-color: rgba(204, 204, 204, 0.95);
+    color: #333333;
     cursor: default;
     opacity: 0.7;
     box-shadow: none; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #007095; }
+      background-color: rgba(204, 204, 204, 0.95); }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      color: #FFFFFF; }
+      color: #333333; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #008CBA; }
+      background-color: rgba(255, 255, 255, 0.95); }
     button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
       background-color: #e7e7e7;
       border-color: #b9b9b9;
@@ -13184,7 +13184,7 @@ select {
   border-color: #cccccc;
   padding: 0.5rem;
   font-size: 0.875rem;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   color: rgba(0, 0, 0, 0.75);
   line-height: normal;
   border-radius: 0;
@@ -13444,7 +13444,7 @@ meta.foundation-mq-topbar {
       color: #FFFFFF;
       padding: 12px 0 12px 0;
       padding-left: 15px;
-      font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       font-size: 0.8125rem;
       font-weight: normal;
       text-transform: none; }
@@ -13832,10 +13832,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -14080,14 +14080,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #222222;
+  color: #EBEAF6;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
   line-height: 1.4; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-size: 60%;
-    color: #6f6f6f;
+    color: #f2f1f9;
     line-height: 0; }
 
 h1 {
@@ -14110,7 +14110,7 @@ h6 {
 
 .subheader {
   line-height: 1.4;
-  color: #6f6f6f;
+  color: #f2f1f9;
   font-weight: normal;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem; }
@@ -14206,7 +14206,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #222;
+  color: #000000;
   cursor: help; }
 
 abbr {
@@ -14222,17 +14222,17 @@ blockquote {
   blockquote cite {
     display: block;
     font-size: 0.8125rem;
-    color: #555555; }
+    color: #f0eff8; }
     blockquote cite:before {
       content: "\2014 \0020"; }
     blockquote cite a,
     blockquote cite a:visited {
-      color: #555555; }
+      color: #f0eff8; }
 
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #6f6f6f; }
+  color: #f2f1f9; }
 
 /* Microformats */
 .vcard {
@@ -14390,10 +14390,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -14494,10 +14494,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -14742,14 +14742,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #222222;
+  color: #EBEAF6;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
   line-height: 1.4; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-size: 60%;
-    color: #6f6f6f;
+    color: #f2f1f9;
     line-height: 0; }
 
 h1 {
@@ -14772,7 +14772,7 @@ h6 {
 
 .subheader {
   line-height: 1.4;
-  color: #6f6f6f;
+  color: #f2f1f9;
   font-weight: normal;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem; }
@@ -14868,7 +14868,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #222;
+  color: #000000;
   cursor: help; }
 
 abbr {
@@ -14884,17 +14884,17 @@ blockquote {
   blockquote cite {
     display: block;
     font-size: 0.8125rem;
-    color: #555555; }
+    color: #f0eff8; }
     blockquote cite:before {
       content: "\2014 \0020"; }
     blockquote cite a,
     blockquote cite a:visited {
-      color: #555555; }
+      color: #f0eff8; }
 
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #6f6f6f; }
+  color: #f2f1f9; }
 
 /* Microformats */
 .vcard {
@@ -15468,10 +15468,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;

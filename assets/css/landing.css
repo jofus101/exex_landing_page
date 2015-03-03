@@ -3,8 +3,6 @@
   white-space: nowrap;
   overflow: hidden; }
   .title h1, .title h2, .title h3, .title h4, .title h5, .title h6 {
-    text-align: center;
-    color: #EBEAF6;
     text-transform: uppercase;
     letter-spacing: 3px; }
   .title .strike-center {
@@ -13,7 +11,7 @@
     /* would center line-through in the middle of the wrapped lines */
     margin: 5px; }
   .title .strike-center:after {
-    border-top: 4px solid #EBEAF6;
+    border-top: 4px solid;
     position: absolute;
     content: "";
     right: 0;
