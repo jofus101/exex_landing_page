@@ -3,3 +3,41 @@
 @import "foundation/settings";
 @import "settings_override";
 @import "foundation";
+
+.title {
+  margin-top: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  h1, h2, h3, h4, h5, h6{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  .strike-center {
+    position: relative;
+    white-space: pre; /* would center line-through in the middle of the wrapped lines */
+    margin: 5px;
+  }
+  .strike-center:after {
+      border-top: 4px solid;
+      position: absolute;
+      content: "";
+      right: 0;
+      top:50%;
+      left: 0;
+  }
+}
+
+body { 
+  background:
+    // top, transparent blue, faked with gradient 
+    linear-gradient(
+      rgba(0, 0, 255, 0.15), 
+      rgba(0, 0, 255, 0.15)
+    ),
+    // bottom, image
+    url("../images/smoke1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
