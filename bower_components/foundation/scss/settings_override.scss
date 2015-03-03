@@ -44,7 +44,7 @@ $white       : #FFFFFF;
 $black       : #000000;
 
 // We use these as default colors throughout
-// $primary-color: #008CBA;
+$primary-color: #EBEAF6;
 // $secondary-color: #e7e7e7;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
@@ -85,7 +85,7 @@ $body-font-color: $black;
 $header-font-family: "Economica", Helvetica, Roboto, Arial, sans-serif;
 // $header-font-weight: $font-weight-normal;
 // $header-font-style: normal;
-$header-font-color: #EBEAF6;
+$header-font-color: $primary-color;
 // $header-line-height: 1.4;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
@@ -259,7 +259,7 @@ $alert-font-size: rem-calc(15);
 
 // We use these to control button text styles.
 $button-font-family: $header-font-family;
-$button-font-color: $white;
+$button-font-color: $primary-color;
 // $button-font-color-alt: $oil;
 // $button-font-tny: rem-calc(11);
 // $button-font-sml: rem-calc(13);
@@ -269,14 +269,14 @@ $button-font-color: $white;
 // $button-font-align: center;
 
 // We use these to control various hover effects.
-// $button-function-factor: -20%;
+$button-function-factor: -20%;
 
 // We use these to control button border and hover styles.
 $button-border-width: 2px;
 $button-border-style: solid;
-$button-bg-color: rgba(255, 255, 255, 0.0);
-// $button-bg-hover: scale-color($button-bg-color, $lightness: $button-function-factor);
-// $button-border-color: $button-bg-hover;
+$button-bg-color: transparent;
+$button-bg-hover: scale-color($primary-color, $lightness: $button-function-factor);
+$button-border-color: $primary-color;
 // $secondary-button-bg-hover: scale-color($secondary-color, $lightness: $button-function-factor);
 // $secondary-button-border-color: $secondary-button-bg-hover;
 // $success-button-bg-hover: scale-color($success-color, $lightness: $button-function-factor);
@@ -295,5 +295,5 @@ $button-bg-color: rgba(255, 255, 255, 0.0);
 // 11. Forms
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-$input-font-family: inherit;
+// $input-font-family: inherit;
 // $input-font-color: rgba(0,0,0,0.85);
