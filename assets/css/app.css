@@ -15871,10 +15871,10 @@ th.hide-for-touch {
   .title h1, .title h2, .title h3, .title h4, .title h5, .title h6 {
     text-transform: uppercase;
     letter-spacing: 3px; }
-  .title h2.no-background {
+  .title h2.line-behind {
     position: relative;
     overflow: hidden; }
-    .title h2.no-background span {
+    .title h2.line-behind span {
       display: inline-block;
       vertical-align: baseline;
       zoom: 1;
@@ -15882,16 +15882,16 @@ th.hide-for-touch {
       *vertical-align: auto;
       position: relative;
       padding: 0 25px; }
-      .title h2.no-background span:before, .title h2.no-background span:after {
+      .title h2.line-behind span:before, .title h2.line-behind span:after {
         content: '';
         display: block;
         width: 1000px;
         position: absolute;
         top: 45%;
         border-top: 5px solid; }
-      .title h2.no-background span:before {
+      .title h2.line-behind span:before {
         right: 100%; }
-      .title h2.no-background span:after {
+      .title h2.line-behind span:after {
         left: 100%; }
 
 body {
