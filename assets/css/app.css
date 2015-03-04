@@ -15871,18 +15871,28 @@ th.hide-for-touch {
   .title h1, .title h2, .title h3, .title h4, .title h5, .title h6 {
     text-transform: uppercase;
     letter-spacing: 3px; }
-  .title .strike-center {
+  .title h2.no-background {
     position: relative;
-    white-space: pre;
-    /* would center line-through in the middle of the wrapped lines */
-    margin: 5px; }
-  .title .strike-center:after {
-    border-top: 4px solid;
-    position: absolute;
-    content: "";
-    right: 0;
-    top: 50%;
-    left: 0; }
+    overflow: hidden; }
+    .title h2.no-background span {
+      display: inline-block;
+      vertical-align: baseline;
+      zoom: 1;
+      *display: inline;
+      *vertical-align: auto;
+      position: relative;
+      padding: 0 25px; }
+      .title h2.no-background span:before, .title h2.no-background span:after {
+        content: '';
+        display: block;
+        width: 1000px;
+        position: absolute;
+        top: 45%;
+        border-top: 5px solid; }
+      .title h2.no-background span:before {
+        right: 100%; }
+      .title h2.no-background span:after {
+        left: 100%; }
 
 body {
   background: linear-gradient(rgba(0, 0, 255, 0.15), rgba(0, 0, 255, 0.15)), url("../images/smoke1.jpg") no-repeat center center fixed;

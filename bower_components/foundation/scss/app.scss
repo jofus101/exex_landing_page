@@ -8,22 +8,37 @@
   margin-top: 200px;
   white-space: nowrap;
   overflow: hidden;
-  h1, h2, h3, h4, h5, h6{
+  
+  h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     letter-spacing: 3px;
   }
-  .strike-center {
+
+  h2.no-background {
     position: relative;
-    white-space: pre; /* would center line-through in the middle of the wrapped lines */
-    margin: 5px;
-  }
-  .strike-center:after {
-      border-top: 4px solid;
-      position: absolute;
-      content: "";
-      right: 0;
-      top:50%;
-      left: 0;
+    overflow: hidden;
+    
+    span {
+        display: inline-block;
+        vertical-align: baseline;
+        zoom: 1;
+        *display: inline;
+        *vertical-align: auto;
+        position: relative;
+        padding: 0 25px;
+
+        &:before, &:after {
+            content: '';
+            display: block;
+            width: 1000px;
+            position: absolute;
+            top: 45%;
+            border-top: 5px solid;
+        }
+
+        &:before { right: 100%; }
+        &:after { left: 100%; }
+    }
   }
 }
 
