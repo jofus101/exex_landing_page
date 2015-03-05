@@ -5,7 +5,8 @@
         "bower_components/foundation/scss",
         "assets",
         "assets/css",
-        "assets/js"
+        "assets/js",
+        "templates"
     ],
     "preprocessorScriptOutput": "assets/js",
     "preprocessorStyleOutput": "assets/css",
