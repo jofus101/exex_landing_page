@@ -108,7 +108,7 @@ $error-color: #ED3232;
         }
       }
     }
-    &.valid+.email-form-submit {
+    &.success+.email-form-submit {
       background: $success-color;
       .icon {
         display:none;
