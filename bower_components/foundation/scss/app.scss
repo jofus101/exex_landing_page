@@ -71,6 +71,9 @@
   text-align: center;
 }
 
+$success-color: #339B65;
+$error-color: #ED3232;
+
 .form-wrapper {
   display: inline-block;
   position: relative;
@@ -90,9 +93,27 @@
       &+.email-form-submit {
         width:5rem;
         &:hover, &:focus, &:active {
-          background:#339B65;
+          background: $success-color;
           // color:#FFF;
           cursor:pointer;
+        }
+      }
+    }
+    &.error+.email-form-submit {
+      background: $error-color;
+      .icon {
+        display:none;
+        &.foundicon-remove {
+          display: inline;
+        }
+      }
+    }
+    &.valid+.email-form-submit {
+      background: $success-color;
+      .icon {
+        display:none;
+        &.foundicon-checkmark {
+          display: inline;
         }
       }
     }
@@ -109,6 +130,9 @@
     font-size:1.5rem;
     @include transition(all 180ms ease-out);
     position:absolute;
+    .foundicon-remove, .foundicon-checkmark {
+      display: none;
+    }
   }
 }
 

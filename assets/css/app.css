@@ -15896,6 +15896,18 @@ th.hide-for-touch {
         .form-wrapper .email-input:focus + .email-form-submit:hover, .form-wrapper .email-input:focus + .email-form-submit:focus, .form-wrapper .email-input:focus + .email-form-submit:active {
           background: #339B65;
           cursor: pointer; }
+    .form-wrapper .email-input.error + .email-form-submit {
+      background: #ED3232; }
+      .form-wrapper .email-input.error + .email-form-submit .icon {
+        display: none; }
+        .form-wrapper .email-input.error + .email-form-submit .icon.foundicon-remove {
+          display: inline; }
+    .form-wrapper .email-input.valid + .email-form-submit {
+      background: #339B65; }
+      .form-wrapper .email-input.valid + .email-form-submit .icon {
+        display: none; }
+        .form-wrapper .email-input.valid + .email-form-submit .icon.foundicon-checkmark {
+          display: inline; }
   .form-wrapper .email-form-submit {
     background: transparent;
     border: 2px solid #FFF;
@@ -15916,6 +15928,8 @@ th.hide-for-touch {
     -o-transition: all 180ms ease-out;
     transition: all 180ms ease-out;
     position: absolute; }
+    .form-wrapper .email-form-submit .foundicon-remove, .form-wrapper .email-form-submit .foundicon-checkmark {
+      display: none; }
 
 body {
   background: linear-gradient(rgba(0, 0, 255, 0.15), rgba(0, 0, 255, 0.15)), url("../images/smoke.jpg") no-repeat center center fixed;
