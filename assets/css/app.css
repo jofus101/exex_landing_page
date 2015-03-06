@@ -4414,24 +4414,7 @@ textarea {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  transition: box-shadow 0.45s, border-color 0.45s ease-in-out; }
-  input[type="text"]:focus,
-  input[type="password"]:focus,
-  input[type="date"]:focus,
-  input[type="datetime"]:focus,
-  input[type="datetime-local"]:focus,
-  input[type="month"]:focus,
-  input[type="week"]:focus,
-  input[type="email"]:focus,
-  input[type="number"]:focus,
-  input[type="search"]:focus,
-  input[type="tel"]:focus,
-  input[type="time"]:focus,
-  input[type="url"]:focus,
-  input[type="color"]:focus,
-  textarea:focus {
-    box-shadow: 0 0 5px #EBEAF6;
-    border-color: #EBEAF6; }
+  transition: all 0.15s linear; }
   input[type="text"]:focus,
   input[type="password"]:focus,
   input[type="date"]:focus,
@@ -12987,24 +12970,7 @@ textarea {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  transition: box-shadow 0.45s, border-color 0.45s ease-in-out; }
-  input[type="text"]:focus,
-  input[type="password"]:focus,
-  input[type="date"]:focus,
-  input[type="datetime"]:focus,
-  input[type="datetime-local"]:focus,
-  input[type="month"]:focus,
-  input[type="week"]:focus,
-  input[type="email"]:focus,
-  input[type="number"]:focus,
-  input[type="search"]:focus,
-  input[type="tel"]:focus,
-  input[type="time"]:focus,
-  input[type="url"]:focus,
-  input[type="color"]:focus,
-  textarea:focus {
-    box-shadow: 0 0 5px #EBEAF6;
-    border-color: #EBEAF6; }
+  transition: all 0.15s linear; }
   input[type="text"]:focus,
   input[type="password"]:focus,
   input[type="date"]:focus,
@@ -15865,15 +15831,19 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important; } }
 .title {
+  margin-top: 200px;
   white-space: nowrap;
-  overflow: hidden; }
-  .title h1, .title h2, .title h3, .title h4, .title h5, .title h6 {
-    text-transform: uppercase;
-    letter-spacing: 3px; }
-  .title h2.line-behind {
+  overflow: hidden;
+  text-transform: uppercase; }
+  .title h1, .title h2 {
+    letter-spacing: 10px;
+    word-spacing: 2px; }
+  .title h3, .title h4, .title h5, .title h6 {
+    letter-spacing: 7px; }
+  .title .line-behind {
     position: relative;
     overflow: hidden; }
-    .title h2.line-behind span {
+    .title .line-behind span {
       display: inline-block;
       vertical-align: baseline;
       zoom: 1;
@@ -15881,20 +15851,21 @@ th.hide-for-touch {
       *vertical-align: auto;
       position: relative;
       padding: 0 25px; }
-      .title h2.line-behind span:before, .title h2.line-behind span:after {
+      .title .line-behind span:before, .title .line-behind span:after {
         content: '';
         display: block;
-        width: 1000px;
+        width: 40px;
         position: absolute;
-        top: 45%;
-        border-top: 5px solid; }
-      .title h2.line-behind span:before {
+        top: 37%;
+        border-top: 8px solid; }
+      .title .line-behind span:before {
         right: 100%; }
-      .title h2.line-behind span:after {
+      .title .line-behind span:after {
         left: 100%; }
 
 .form-wrapper {
-  position: relative; }
+  position: relative;
+  margin-top: 12rem; }
   .form-wrapper .email-input {
     background: transparent;
     border: 2px solid #FFF;
@@ -15906,21 +15877,11 @@ th.hide-for-touch {
     outline: none;
     padding: 0 1em;
     width: 22rem;
-    -webkit-transition: background 180ms ease-out;
-    -moz-transition: background 180ms ease-out;
-    -ms-transition: background 180ms ease-out;
-    -o-transition: background 180ms ease-out;
-    transition: background 180ms ease-out;
-    -webkit-transition: width 180ms ease-out;
-    -moz-transition: width 180ms ease-out;
-    -ms-transition: width 180ms ease-out;
-    -o-transition: width 180ms ease-out;
-    transition: width 180ms ease-out;
-    -webkit-transition: color 180ms ease-out;
-    -moz-transition: color 180ms ease-out;
-    -ms-transition: color 180ms ease-out;
-    -o-transition: color 180ms ease-out;
-    transition: color 180ms ease-out; }
+    -webkit-transition: all 180ms ease-out;
+    -moz-transition: all 180ms ease-out;
+    -ms-transition: all 180ms ease-out;
+    -o-transition: all 180ms ease-out;
+    transition: all 180ms ease-out; }
     .form-wrapper .email-input:focus {
       background: #EBEAF6;
       color: #292C30;
@@ -15941,25 +15902,15 @@ th.hide-for-touch {
     -webkit-appearance: none;
     font-size: 24px;
     font-size: 1.5rem;
-    -webkit-transition: background 180ms ease-out;
-    -moz-transition: background 180ms ease-out;
-    -ms-transition: background 180ms ease-out;
-    -o-transition: background 180ms ease-out;
-    transition: background 180ms ease-out;
-    -webkit-transition: width 180ms ease-out;
-    -moz-transition: width 180ms ease-out;
-    -ms-transition: width 180ms ease-out;
-    -o-transition: width 180ms ease-out;
-    transition: width 180ms ease-out;
-    -webkit-transition: color 180ms ease-out;
-    -moz-transition: color 180ms ease-out;
-    -ms-transition: color 180ms ease-out;
-    -o-transition: color 180ms ease-out;
-    transition: color 180ms ease-out;
+    -webkit-transition: all 180ms ease-out;
+    -moz-transition: all 180ms ease-out;
+    -ms-transition: all 180ms ease-out;
+    -o-transition: all 180ms ease-out;
+    transition: all 180ms ease-out;
     position: absolute; }
 
 body {
-  background: linear-gradient(rgba(0, 0, 255, 0.15), rgba(0, 0, 255, 0.15)), url("../images/smoke1.jpg") no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 255, 0.15), rgba(0, 0, 255, 0.15)), url("../images/smoke.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

@@ -304,3 +304,6 @@ $input-border-color: $primary-color;
 $input-focus-border-color: $primary-color;
 // $input-border-style: solid;
 $input-border-width: 2px;
+$input-include-glowing-effect: false;
+// $glowing-effect-fade-time: 0.45s;
+// $glowing-effect-color: $input-focus-border-color;
