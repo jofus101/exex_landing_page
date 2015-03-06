@@ -7,6 +7,16 @@ $(document).ready(function() {
     return re.test(email);
   }
 
+  $('#email_input').keypress(function () {
+    var email = $(this).val();
+    if (validateEmail(email)) {
+      $(this).removeClass('error').addClass('success');
+    }
+    else {
+      $(this).removeClass('success').addClass('error');
+    }  
+  });
+
   $('#fire_submit').click(function () {
     var email = $('#email_input').val();
     if (validateEmail(email)) {
@@ -21,12 +31,10 @@ $(document).ready(function() {
 
   function displaySuccessMessage(email) {
     $('#alert_placeholder').empty()
-      .append('<div class="alert-box success" data-alert>Thanks for signing up: ' + email + '<a href="#" class="close">&times;</a></div>');
-    $(document).foundation('alert', 'reflow');
+      .append('Thanks for signing up: ' + email);
   }
   function displayFailureMessage(email) {
     $('#alert_placeholder').empty()
-      .append('<div class="alert-box alert" data-alert>We\'re sorry \"' + email + '\" doesn\'t look quite right to us. Maybe you missed a letter<a href="#" class="close">&times;</a></div>');
-    $(document).foundation('alert', 'reflow');
+      .append('We\'re sorry \"' + email + '\" doesn\'t look quite right to us.');
   } 
 });
