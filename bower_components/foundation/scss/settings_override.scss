@@ -296,4 +296,11 @@ $button-border-color: $primary-color;
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // $input-font-family: inherit;
-// $input-font-color: rgba(0,0,0,0.85);
+$input-font-color: $header-font-color;
+// $input-font-size: rem-calc(14);
+$input-bg-color: transparent;
+$input-focus-bg-color: $primary-color;
+$input-border-color: $primary-color;
+$input-focus-border-color: $primary-color;
+// $input-border-style: solid;
+$input-border-width: 2px;

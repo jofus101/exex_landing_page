@@ -4298,7 +4298,7 @@ label {
     text-align: right; }
   label.inline {
     margin: 0 0 1rem 0;
-    padding: 0.5625rem 0; }
+    padding: 0.625rem 0; }
   label small {
     text-transform: capitalize;
     color: #676767; }
@@ -4398,13 +4398,13 @@ input[type="color"],
 textarea {
   -webkit-appearance: none;
   -webkit-border-radius: 0px;
-  background-color: #FFFFFF;
+  background-color: transparent;
   font-family: inherit;
   border-style: solid;
-  border-width: 1px;
-  border-color: #cccccc;
+  border-width: 2px;
+  border-color: #EBEAF6;
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  color: rgba(0, 0, 0, 0.75);
+  color: #EBEAF6;
   display: block;
   font-size: 0.875rem;
   margin: 0 0 1rem 0;
@@ -4430,8 +4430,8 @@ textarea {
   input[type="url"]:focus,
   input[type="color"]:focus,
   textarea:focus {
-    box-shadow: 0 0 5px #999999;
-    border-color: #999999; }
+    box-shadow: 0 0 5px #EBEAF6;
+    border-color: #EBEAF6; }
   input[type="text"]:focus,
   input[type="password"]:focus,
   input[type="date"]:focus,
@@ -4447,8 +4447,8 @@ textarea {
   input[type="url"]:focus,
   input[type="color"]:focus,
   textarea:focus {
-    background: #fafafa;
-    border-color: #999999;
+    background: #EBEAF6;
+    border-color: #EBEAF6;
     outline: none; }
   input[type="text"]:disabled,
   input[type="password"]:disabled,
@@ -4607,12 +4607,12 @@ select {
   background-position: 100% center;
   background-repeat: no-repeat;
   border-style: solid;
-  border-width: 1px;
-  border-color: #cccccc;
+  border-width: 2px;
+  border-color: #EBEAF6;
   padding: 0.5rem;
   font-size: 0.875rem;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  color: rgba(0, 0, 0, 0.75);
+  color: #EBEAF6;
   line-height: normal;
   border-radius: 0;
   height: 2.3125rem; }
@@ -4622,7 +4622,7 @@ select {
     border-radius: 3px; }
   select:hover {
     background-color: #f3f3f3;
-    border-color: #999999; }
+    border-color: #EBEAF6; }
   select:disabled {
     background-color: #DDDDDD;
     cursor: default; }
@@ -12871,7 +12871,7 @@ label {
     text-align: right; }
   label.inline {
     margin: 0 0 1rem 0;
-    padding: 0.5625rem 0; }
+    padding: 0.625rem 0; }
   label small {
     text-transform: capitalize;
     color: #676767; }
@@ -12971,13 +12971,13 @@ input[type="color"],
 textarea {
   -webkit-appearance: none;
   -webkit-border-radius: 0px;
-  background-color: #FFFFFF;
+  background-color: transparent;
   font-family: inherit;
   border-style: solid;
-  border-width: 1px;
-  border-color: #cccccc;
+  border-width: 2px;
+  border-color: #EBEAF6;
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  color: rgba(0, 0, 0, 0.75);
+  color: #EBEAF6;
   display: block;
   font-size: 0.875rem;
   margin: 0 0 1rem 0;
@@ -13003,8 +13003,8 @@ textarea {
   input[type="url"]:focus,
   input[type="color"]:focus,
   textarea:focus {
-    box-shadow: 0 0 5px #999999;
-    border-color: #999999; }
+    box-shadow: 0 0 5px #EBEAF6;
+    border-color: #EBEAF6; }
   input[type="text"]:focus,
   input[type="password"]:focus,
   input[type="date"]:focus,
@@ -13020,8 +13020,8 @@ textarea {
   input[type="url"]:focus,
   input[type="color"]:focus,
   textarea:focus {
-    background: #fafafa;
-    border-color: #999999;
+    background: #EBEAF6;
+    border-color: #EBEAF6;
     outline: none; }
   input[type="text"]:disabled,
   input[type="password"]:disabled,
@@ -13180,12 +13180,12 @@ select {
   background-position: 100% center;
   background-repeat: no-repeat;
   border-style: solid;
-  border-width: 1px;
-  border-color: #cccccc;
+  border-width: 2px;
+  border-color: #EBEAF6;
   padding: 0.5rem;
   font-size: 0.875rem;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  color: rgba(0, 0, 0, 0.75);
+  color: #EBEAF6;
   line-height: normal;
   border-radius: 0;
   height: 2.3125rem; }
@@ -13195,7 +13195,7 @@ select {
     border-radius: 3px; }
   select:hover {
     background-color: #f3f3f3;
-    border-color: #999999; }
+    border-color: #EBEAF6; }
   select:disabled {
     background-color: #DDDDDD;
     cursor: default; }
@@ -15865,7 +15865,6 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important; } }
 .title {
-  margin-top: 200px;
   white-space: nowrap;
   overflow: hidden; }
   .title h1, .title h2, .title h3, .title h4, .title h5, .title h6 {
@@ -15893,6 +15892,71 @@ th.hide-for-touch {
         right: 100%; }
       .title h2.line-behind span:after {
         left: 100%; }
+
+.form-wrapper {
+  position: relative; }
+  .form-wrapper .email-input {
+    background: transparent;
+    border: 2px solid #FFF;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 16px;
+    font-size: 1rem;
+    float: left;
+    outline: none;
+    padding: 0 1em;
+    width: 22rem;
+    -webkit-transition: background 180ms ease-out;
+    -moz-transition: background 180ms ease-out;
+    -ms-transition: background 180ms ease-out;
+    -o-transition: background 180ms ease-out;
+    transition: background 180ms ease-out;
+    -webkit-transition: width 180ms ease-out;
+    -moz-transition: width 180ms ease-out;
+    -ms-transition: width 180ms ease-out;
+    -o-transition: width 180ms ease-out;
+    transition: width 180ms ease-out;
+    -webkit-transition: color 180ms ease-out;
+    -moz-transition: color 180ms ease-out;
+    -ms-transition: color 180ms ease-out;
+    -o-transition: color 180ms ease-out;
+    transition: color 180ms ease-out; }
+    .form-wrapper .email-input:focus {
+      background: #EBEAF6;
+      color: #292C30;
+      width: 25rem; }
+      .form-wrapper .email-input:focus + .email-form-submit {
+        width: 5rem; }
+  .form-wrapper .email-form-submit {
+    background: transparent;
+    border: 2px solid #FFF;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 16px;
+    font-size: 1rem;
+    color: #EBEAF6;
+    border-left: none;
+    text-align: center;
+    width: 8rem;
+    -webkit-appearance: none;
+    font-size: 24px;
+    font-size: 1.5rem;
+    -webkit-transition: background 180ms ease-out;
+    -moz-transition: background 180ms ease-out;
+    -ms-transition: background 180ms ease-out;
+    -o-transition: background 180ms ease-out;
+    transition: background 180ms ease-out;
+    -webkit-transition: width 180ms ease-out;
+    -moz-transition: width 180ms ease-out;
+    -ms-transition: width 180ms ease-out;
+    -o-transition: width 180ms ease-out;
+    transition: width 180ms ease-out;
+    -webkit-transition: color 180ms ease-out;
+    -moz-transition: color 180ms ease-out;
+    -ms-transition: color 180ms ease-out;
+    -o-transition: color 180ms ease-out;
+    transition: color 180ms ease-out;
+    position: absolute; }
 
 body {
   background: linear-gradient(rgba(0, 0, 255, 0.15), rgba(0, 0, 255, 0.15)), url("../images/smoke1.jpg") no-repeat center center fixed;

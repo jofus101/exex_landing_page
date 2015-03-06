@@ -12,9 +12,13 @@
   </div>
 
   <div class="row">
-    <input id="email_input" type="email" placeholder="Please enter your email" spellcheck="false" value="" maxlength="255" tabindex="1"/>
-    <input id="fire_submit" class="button" type="submit" value="Firebase"/>
-    <div id="alert_placeholder"></div>
+    <div class="form-wrapper">
+      <input id="email_input" class="email-input" type="email" placeholder="Please enter your email" spellcheck="false" value="" maxlength="255" tabindex="1"/>
+      <a id="fire_submit" class="email-form-submit">
+        <span class="foundicon-mail"></span>
+      </a>
+      <div id="alert_placeholder"></div>
+    </div>
   </div>
 
 {% endblock %}

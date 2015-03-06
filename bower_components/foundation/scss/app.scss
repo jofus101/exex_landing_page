@@ -4,6 +4,15 @@
 @import "settings_override";
 @import "foundation";
 
+@mixin transition($args) {
+
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
 .title {
   margin-top: 200px;
   white-space: nowrap;
@@ -40,6 +49,62 @@
         &:before { right: 100%; }
         &:after { left: 100%; }
     }
+  }
+}
+
+@mixin email-form-basics {
+  background: transparent;
+  border:2px solid #FFF;
+  height:4rem;
+  line-height:4rem;
+  font-size:16px;
+  font-size:1rem;
+}
+
+.form-wrapper {
+  position: relative;
+
+  .email-input {
+    @include email-form-basics;
+    float: left;
+    outline:none;
+    padding:0 1em;
+    width:22rem;
+    @include transition(background 180ms ease-out);
+    @include transition(width 180ms ease-out);
+    @include transition(color 180ms ease-out);
+    &:focus {
+      background:$primary-color;
+      color:#292C30;
+      width:25rem;
+      &+.email-form-submit {
+        width:5rem
+      }
+    }
+  }
+
+  .email-form-submit {
+    @include email-form-basics;
+    color:$primary-color;
+    border-left:none;
+    text-align:center;
+    width:8rem;
+    -webkit-appearance:none;
+    font-size:24px;
+    font-size:1.5rem;
+    @include transition(background 180ms ease-out);
+    @include transition(width 180ms ease-out);
+    @include transition(color 180ms ease-out);
+    // position:absolute;
+    // top:auto;
+    // right:auto;
+    // bottom:auto;
+    // left:auto;
+    position:absolute;
+    // top:auto;
+    // right:0;
+    // bottom:0;
+    // left:auto;
   }
 }
 
