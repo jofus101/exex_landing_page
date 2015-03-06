@@ -47,10 +47,10 @@ $(document).ready(function() {
 
   function displaySuccessMessage(email) {
     $('#alert_placeholder').empty()
-      .append('Thanks for signing up: ' + email);
+      .append('Thanks for signing up');
   }
   function displayFailureMessage(email) {
     $('#alert_placeholder').empty()
-      .append('We\'re sorry \"' + email + '\" doesn\'t look quite right to us.');
+      .append('We\'re sorry that doesn\'t look quite right');
   } 
 });
