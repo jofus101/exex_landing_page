@@ -15908,6 +15908,8 @@ th.hide-for-touch {
         display: none; }
         .form-wrapper .email-input.success + .email-form-submit .icon.foundicon-checkmark {
           display: inline; }
+    .form-wrapper .email-input::-ms-clear {
+      display: none; }
   .form-wrapper .email-form-submit {
     background: transparent;
     border: 2px solid #FFF;

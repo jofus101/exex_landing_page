@@ -117,6 +117,9 @@ $error-color: #ED3232;
         }
       }
     }
+    &::-ms-clear {
+      display: none;
+    }
   }
 
   .email-form-submit {
