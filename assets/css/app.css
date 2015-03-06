@@ -15863,7 +15863,12 @@ th.hide-for-touch {
       .title .line-behind span:after {
         left: 100%; }
 
+.email-center {
+  width: 88%;
+  text-align: center; }
+
 .form-wrapper {
+  display: inline-block;
   position: relative;
   margin-top: 12rem; }
   .form-wrapper .email-input {
