@@ -88,7 +88,12 @@
       color:#292C30;
       width:25rem;
       &+.email-form-submit {
-        width:5rem
+        width:5rem;
+        &:hover, &:focus, &:active {
+          background:#339B65;
+          // color:#FFF;
+          cursor:pointer;
+        }
       }
     }
   }

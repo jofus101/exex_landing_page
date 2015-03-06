@@ -15893,6 +15893,9 @@ th.hide-for-touch {
       width: 25rem; }
       .form-wrapper .email-input:focus + .email-form-submit {
         width: 5rem; }
+        .form-wrapper .email-input:focus + .email-form-submit:hover, .form-wrapper .email-input:focus + .email-form-submit:focus, .form-wrapper .email-input:focus + .email-form-submit:active {
+          background: #339B65;
+          cursor: pointer; }
   .form-wrapper .email-form-submit {
     background: transparent;
     border: 2px solid #FFF;
