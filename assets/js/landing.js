@@ -43,7 +43,7 @@ $(document).ready(function() {
     }
   });
 
-  $('#fire_submit').click(submitForm());
+  $('#fire_submit').click(submitForm);
 
   function displaySuccessMessage(email) {
     $('#alert_placeholder').empty()
