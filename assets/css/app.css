@@ -15834,7 +15834,8 @@ th.hide-for-touch {
   margin-top: 200px;
   white-space: nowrap;
   overflow: hidden;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-rendering: unset; }
   .title h1, .title h2 {
     letter-spacing: 10px;
     word-spacing: 2px; }
