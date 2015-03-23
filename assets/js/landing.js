@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var myFirebaseRef = new Firebase("https://flickering-inferno-9766.firebaseio.com/");
+  var myFirebaseRef = new Firebase("https://flickering-inferno-9766.firebaseio.com/users/");
 
 
   function submitForm() {
